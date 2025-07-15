@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Countdown Timer</h1>
+        <div class="input-group">
+            <label for="date">Target Date:</label>
+            <input type="date" id="date">
+        </div>
+        <div class="input-group">
+            <label for="time">Target Time:</label>
+            <input type="time" id="time">
+        </div>
+        <button id="startBtn">Start</button>
+        <div class="countdown">
+            <div class="time-box">
+                <span id="days">00</span>
+                <p>Days</p>
+            </div>
+            <div class="time-box">
+                <span id="hours">00</span>
+                <p>Hours</p>
+            </div>
+            <div class="time-box">
+                <span id="minutes">00</span>
+                <p>Minutes</p>
+            </div>
+            <div class="time-box">
+                <span id="seconds">00</span>
+                <p>Seconds</p>
+            </div>
+        </div>
+        <div id="message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
